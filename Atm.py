@@ -12,3 +12,6 @@ class Atm:
     def CashDeposite(self):
         print("Your cash is deposited successful !!!")
 
+user1 = Atm(23455,234568)
+user1.BalanceEnquiryl()
+user1.CashDeposite()
